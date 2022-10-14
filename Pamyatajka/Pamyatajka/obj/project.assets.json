@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrii\\source\\repos\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
+      "projectUniqueName": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
       "projectName": "PamyatajkaUI",
-      "projectPath": "C:\\Users\\Andrii\\source\\repos\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
+      "projectPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
       "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrii\\source\\repos\\Pamyatajka\\Pamyatajka\\obj\\",
+      "outputPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
