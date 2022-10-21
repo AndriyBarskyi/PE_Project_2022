@@ -4,9 +4,36 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pamyatajka"
+        xmlns:uc="clr-namespace:PamyatajkaUI.Controls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+            Title="MainWindow" Height="900" Width="1600">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10*"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer Grid.Column="1" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin="0 0 0 0">
+            <StackPanel>
+                <Label x:Name="CategoryLabel" Content="Категорії" FontSize="42" HorizontalAlignment="Left" FontFamily="Microsoft YaHei" FontWeight="Bold" Margin="20 40 0 0" />
+                <WrapPanel Grid.Column="1" ItemHeight="200" ItemWidth="420" Margin="40 10 40 0" Orientation="Horizontal">
+                    <uc:CategoryControl Margin="30 10"/>
+                    <uc:CategoryControl Margin="30 10"/>
+                    <uc:CategoryControl Margin="30 10"/>
+                    <uc:CategoryControl Margin="30 10"/>
+                    <uc:CategoryControl Margin="30 10"/>
+                    <uc:CategoryControl Margin="30 10"/>
+                    <uc:CategoryControl Margin="30 10"/>
+                    
+                    <Button Content="+" FontSize="100" Margin="30 10" Padding="0 0 2 30"/>
+                </WrapPanel>
+            </StackPanel>
+        </ScrollViewer>
+        <ListBox x:Name="NavigationMenuListBox"
+                Style="{StaticResource NavigationListBoxStyle}"
+                ItemContainerStyle="{DynamicResource NavigationListBoxItemStyle}"
+                ItemTemplate="{DynamicResource NavigationDataTemplate}"
+                ItemsSource="{StaticResource NavigationMenuItems}"/>
+        
 
     </Grid>
 </Window>
