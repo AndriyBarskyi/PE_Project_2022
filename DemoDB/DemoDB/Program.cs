@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -57,28 +57,26 @@ namespace DemoDB
             sqliteCmd = conn.CreateCommand();
             for (int i = 0; i < 30; i++)
             {
-                string categoryId = randomGenerator.RandomString(7);
-                string gradeId = randomGenerator.RandomString(7);
-                string intervalsId = randomGenerator.RandomString(7);
-                string wordId = randomGenerator.RandomString(7);
-                string statusId = randomGenerator.RandomString(7);
-                sqliteCmd.CommandText = "INSERT INTO Intervals (interval_id, name) " +
-                    "VALUES ('" + intervalsId + "', '" + randomGenerator.RandomString(10) + "');";
+                sqliteCmd.CommandText = "INSERT INTO Intervals (name) " +
+                    "VALUES ('" + randomGenerator.RandomString(10) + "');";
                 sqliteCmd.ExecuteNonQuery();
-                sqliteCmd.CommandText = "INSERT INTO Categories (category_id, name, is_default, interval_fk) " +
-                    "VALUES ('" + categoryId + "', '" + randomGenerator.RandomString(10) + "', false, '" + intervalsId + "');";
+                long intervalsId = conn.LastInsertRowId;
+                sqliteCmd.CommandText = "INSERT INTO Categories (name, is_default, interval_fk) " +
+                    "VALUES ('" + randomGenerator.RandomString(10) + "', false, '" + intervalsId + "');";
                 sqliteCmd.ExecuteNonQuery();
-                sqliteCmd.CommandText = "INSERT INTO Statuses (status_id, status) " +
-                    "VALUES ('" + statusId + "', '" + randomGenerator.RandomString(10) + "');";
+                long categoryId = conn.LastInsertRowId;
+                sqliteCmd.CommandText = "INSERT INTO Statuses (status) " +
+                    "VALUES ('" + randomGenerator.RandomString(10) + "');";
                 sqliteCmd.ExecuteNonQuery();
-                sqliteCmd.CommandText = "INSERT INTO Grades (grade_id, name, interval_time, position, interval_fk) " +
-                    "VALUES ('" + gradeId + "', '" +
-                    randomGenerator.RandomString(10) + "', '" + DateTime.Now.ToString("yyyy-MM-dd") + "','" +
+                long statusId = conn.LastInsertRowId;
+                sqliteCmd.CommandText = "INSERT INTO Grades (name, interval_time, position, interval_fk) " +
+                    "VALUES ('" + randomGenerator.RandomString(10) + "', '" + DateTime.Now.ToString("yyyy-MM-dd") + "','" +
                     + new Random().Next(0, 6) + "', '" + intervalsId + "');";
                 sqliteCmd.ExecuteNonQuery();
-                sqliteCmd.CommandText = "INSERT INTO Words (word_id, term, definition, status_fk, category_fk, current_grade_fk) " +
-                    "VALUES ('" + wordId + "', '" +
-                    randomGenerator.RandomString(10) + "', '" + randomGenerator.RandomString(7) + "', '" +
+                long gradeId = conn.LastInsertRowId;
+                sqliteCmd.CommandText = "INSERT INTO Words (term, definition, status_fk, category_fk, current_grade_fk) " +
+                    "VALUES ('" + randomGenerator.RandomString(10) + "', '" + 
+                    randomGenerator.RandomString(7) + "', '" +
                     statusId + "', '" + categoryId + "', '" + gradeId + "');";
                 sqliteCmd.ExecuteNonQuery();
             }
@@ -94,7 +92,7 @@ namespace DemoDB
             sqliteDatareader = sqliteCmd.ExecuteReader();
             while (sqliteDatareader.Read())
             {
-                string myreader = sqliteDatareader.GetString(0) +
+                string myreader = sqliteDatareader.GetInt32(0) +
                     " " + sqliteDatareader.GetString(1) + " " +
                     " " + sqliteDatareader.GetBoolean(2).ToString() + " " + sqliteDatareader.GetString(3);
                 Console.WriteLine(myreader);
@@ -106,7 +104,7 @@ namespace DemoDB
             sqliteDatareader = sqliteCmd.ExecuteReader();
             while (sqliteDatareader.Read())
             {
-                string myreader = sqliteDatareader.GetString(0) +
+                string myreader = sqliteDatareader.GetInt32(0) +
                     " " + sqliteDatareader.GetString(1) + " " + sqliteDatareader.GetDateTime(2).ToString() + " "
                     + sqliteDatareader.GetInt32(3) + " " + sqliteDatareader.GetString(4);
                 Console.WriteLine(myreader);
@@ -119,7 +117,7 @@ namespace DemoDB
             sqliteDatareader = sqliteCmd.ExecuteReader();
             while (sqliteDatareader.Read())
             {
-                string myreader = sqliteDatareader.GetString(0) +
+                string myreader = sqliteDatareader.GetInt32(0) +
                     " " + sqliteDatareader.GetString(1);
                 Console.WriteLine(myreader);
             }
@@ -131,7 +129,7 @@ namespace DemoDB
             sqliteDatareader = sqliteCmd.ExecuteReader();
             while (sqliteDatareader.Read())
             {
-                string myreader = sqliteDatareader.GetString(0) +
+                string myreader = sqliteDatareader.GetInt32(0) +
                     " " + sqliteDatareader.GetString(1) + " " + sqliteDatareader.GetString(2) +
                     " " + sqliteDatareader.GetString(3) + " " + sqliteDatareader.GetString(4) + " " + sqliteDatareader.GetString(5);
                 Console.WriteLine(myreader);
@@ -144,7 +142,7 @@ namespace DemoDB
             sqliteDatareader = sqliteCmd.ExecuteReader();
             while (sqliteDatareader.Read())
             {
-                string myreader = sqliteDatareader.GetString(0) +
+                string myreader = sqliteDatareader.GetInt32(0) +
                     " " + sqliteDatareader.GetString(1);
                 Console.WriteLine(myreader);
             }
