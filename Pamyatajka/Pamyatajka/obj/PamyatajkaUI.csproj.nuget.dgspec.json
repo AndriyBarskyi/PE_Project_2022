@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrii\\Source\\Repos\\AndriyBarskyi\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj": {}
+    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrii\\Source\\Repos\\AndriyBarskyi\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj": {
+    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrii\\Source\\Repos\\AndriyBarskyi\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
+        "projectUniqueName": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
         "projectName": "PamyatajkaUI",
-        "projectPath": "C:\\Users\\Andrii\\Source\\Repos\\AndriyBarskyi\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
+        "projectPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
         "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrii\\Source\\Repos\\AndriyBarskyi\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\obj\\",
+        "outputPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MahApps.Metro.IconPacks": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
