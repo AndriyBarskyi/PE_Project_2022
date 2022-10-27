@@ -34,7 +34,7 @@ namespace DemoDB {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("CREATE TABLE IF NOT EXISTS Intervals (interval_id VARCHAR(20) PRIMARY KEY, name V" +
+        [global::System.Configuration.DefaultSettingValueAttribute("CREATE TABLE IF NOT EXISTS Intervals (interval_id INTEGER PRIMARY KEY AUTOINCREMENT, name V" +
             "ARCHAR(60) NOT NULL);")]
         public string CreateIntervals {
             get {
@@ -44,7 +44,7 @@ namespace DemoDB {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("CREATE TABLE IF NOT EXISTS Statuses (status_id VARCHAR(20) PRIMARY KEY, status VA" +
+        [global::System.Configuration.DefaultSettingValueAttribute("CREATE TABLE IF NOT EXISTS Statuses (status_id INTEGER PRIMARY KEY AUTOINCREMENT, status VA" +
             "RCHAR(60) NOT NULL);")]
         public string CreateStatuses {
             get {
@@ -54,7 +54,7 @@ namespace DemoDB {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("CREATE TABLE IF NOT EXISTS Categories (category_id VARCHAR(20) PRIMARY KEY, name " +
+        [global::System.Configuration.DefaultSettingValueAttribute("CREATE TABLE IF NOT EXISTS Categories (category_id INTEGER PRIMARY KEY AUTOINCREMENT, name " +
             "VARCHAR(60) NOT NULL, is_default bool NOT NULL, interval_fk varchar(60), FOREIGN" +
             " KEY (interval_fk) REFERENCES Intervals (interval_id) ON DELETE CASCADE);")]
         public string CreateCategories {
@@ -65,7 +65,7 @@ namespace DemoDB {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"CREATE TABLE IF NOT EXISTS Grades (grade_id VARCHAR(20) PRIMARY KEY, name VARCHAR(60) NOT NULL, interval_time timestamp NOT NULL, position integer NOT NULL, interval_fk varchar(60), FOREIGN KEY (interval_fk) REFERENCES Intervals (interval_id) ON DELETE CASCADE);")]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"CREATE TABLE IF NOT EXISTS Grades (grade_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(60) NOT NULL, interval_time timestamp NOT NULL, position integer NOT NULL, interval_fk varchar(60), FOREIGN KEY (interval_fk) REFERENCES Intervals (interval_id) ON DELETE CASCADE);")]
         public string CreateGrades {
             get {
                 return ((string)(this["CreateGrades"]));
@@ -74,7 +74,7 @@ namespace DemoDB {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"CREATE TABLE IF NOT EXISTS Words (word_id VARCHAR(60) PRIMARY KEY, term VARCHAR(60) NOT NULL, definition TEXT NOT NULL, status_fk varchar(20) NOT NULL, category_fk varchar(60) NOT NULL, current_grade_fk varchar(60), FOREIGN KEY (status_fk) REFERENCES Statuses (status_id) ON DELETE CASCADE, FOREIGN KEY (category_fk) REFERENCES Categories (category_id) ON DELETE CASCADE, FOREIGN KEY (current_grade_fk) REFERENCES Grades (grade_id) ON DELETE CASCADE);")]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"CREATE TABLE IF NOT EXISTS Words (word_id INTEGER PRIMARY KEY AUTOINCREMENT, term VARCHAR(60) NOT NULL, definition TEXT NOT NULL, status_fk varchar(20) NOT NULL, category_fk varchar(60) NOT NULL, current_grade_fk varchar(60), FOREIGN KEY (status_fk) REFERENCES Statuses (status_id) ON DELETE CASCADE, FOREIGN KEY (category_fk) REFERENCES Categories (category_id) ON DELETE CASCADE, FOREIGN KEY (current_grade_fk) REFERENCES Grades (grade_id) ON DELETE CASCADE);")]
         public string CreateWords {
             get {
                 return ((string)(this["CreateWords"]));
