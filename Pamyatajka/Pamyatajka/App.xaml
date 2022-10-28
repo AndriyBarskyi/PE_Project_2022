@@ -82,7 +82,7 @@
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsSelected" Value="true">
                                 <Setter TargetName="Bd" Property="Background" 
-                         Value="Blue"/>
+                         Value="{StaticResource PrimaryLightBrush}"/>
                                 <Setter Property="Foreground" Value="White"/>
                             </Trigger>
                             <MultiTrigger>
@@ -108,7 +108,7 @@
                                               HorizontalAlignment="Center" Margin="12" Width="35" Height="35"/>
             <DataTemplate.Triggers>
                 <DataTrigger Binding="{Binding}" Value="Categories">
-                    <Setter TargetName="MenuItemIcon" Property="Kind" Value="GridOn"/>
+                    <Setter TargetName="MenuItemIcon" Property="Kind" Value="Apps"/>
                 </DataTrigger>
                 <DataTrigger Binding="{Binding}" Value="Statistics">
                     <Setter TargetName="MenuItemIcon" Property="Kind" Value="InsertChart"/>
@@ -120,7 +120,7 @@
         </DataTemplate>
         
         <x:Array x:Key="NavigationMenuItems" Type="system:String">
-            <system:String>Home</system:String>
+            <system:String>Categories</system:String>
             <system:String>Statistics</system:String>
             <system:String>Settings</system:String>
         </x:Array>
