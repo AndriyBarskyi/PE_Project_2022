@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DemoDB" GeneratedClassName="DatabaseProperties">
+  <Profiles />
+  <Settings>
+    <Setting Name="DBConnection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=pamyatayka.db;Version=3;New=True;Compress=True;</Value>
+    </Setting>
+    <Setting Name="CreateIntervals" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CREATE TABLE IF NOT EXISTS Intervals (interval_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(60) NOT NULL);</Value>
+    </Setting>
+    <Setting Name="CreateStatuses" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CREATE TABLE IF NOT EXISTS Statuses (status_id INTEGER PRIMARY KEY AUTOINCREMENT, status VARCHAR(60) NOT NULL);</Value>
+    </Setting>
+    <Setting Name="CreateCategories" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CREATE TABLE IF NOT EXISTS Categories (category_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(60) NOT NULL, is_default bool NOT NULL, interval_fk varchar(60), FOREIGN KEY (interval_fk) REFERENCES Intervals (interval_id) ON DELETE CASCADE);</Value>
+    </Setting>
+    <Setting Name="CreateGrades" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CREATE TABLE IF NOT EXISTS Grades (grade_id INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(60) NOT NULL, interval_time timestamp NOT NULL, position integer NOT NULL, interval_fk varchar(60), FOREIGN KEY (interval_fk) REFERENCES Intervals (interval_id) ON DELETE CASCADE);</Value>
+    </Setting>
+    <Setting Name="CreateWords" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CREATE TABLE IF NOT EXISTS Words (word_id INTEGER PRIMARY KEY AUTOINCREMENT, term VARCHAR(60) NOT NULL, definition TEXT NOT NULL, status_fk varchar(20) NOT NULL, category_fk varchar(60) NOT NULL, current_grade_fk varchar(60), FOREIGN KEY (status_fk) REFERENCES Statuses (status_id) ON DELETE CASCADE, FOREIGN KEY (category_fk) REFERENCES Categories (category_id) ON DELETE CASCADE, FOREIGN KEY (current_grade_fk) REFERENCES Grades (grade_id) ON DELETE CASCADE);</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
