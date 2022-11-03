@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "L5HInO+uJAqUA4sT7s6EFba01AX2pJWRF5U68VdvLkqHBu6va5OO4q/dmnkal+oecMAnkEaP8bKEKfPEVo+7eQ==",
+  "dgSpecHash": "oclgTVk0daWkxYvGiFNPPovJ5PtP0AeOB+QqgoKH4mH6m1dwO2w/3/jO2+LWEFtvgCiIPbCMznrljQ2rKmiXvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrii\\.nuget\\packages\\mahapps.metro.iconpacks\\4.11.0\\mahapps.metro.iconpacks.4.11.0.nupkg.sha512"
+  ],
   "logs": []
 }

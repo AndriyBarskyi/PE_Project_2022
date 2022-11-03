@@ -3,10 +3,42 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Pamyatajka"
+        xmlns:local="clr-namespace:PamyatajkaUI"
+        xmlns:views="clr-namespace:PamyatajkaUI.Views"
+        xmlns:uc="clr-namespace:PamyatajkaUI.Controls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+            Title="MainWindow" Height="900" Width="1600">
+    
+    <Window.Resources>
+        <Style x:Key="NavigationContentStyle" TargetType="ContentControl">
+            <Setter Property="ContentTemplate" Value="{StaticResource CategoriesViewTemplate}"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=NavigationMenuListBox, Path=SelectedItem}"
+                             Value="Categories">
+                    <Setter Property="ContentTemplate" Value="{StaticResource CategoriesViewTemplate}"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding ElementName=NavigationMenuListBox, Path=SelectedItem}"
+                             Value="Statistics">
+                    <Setter Property="ContentTemplate" Value="{StaticResource StatisticsViewTemplate}"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding ElementName=NavigationMenuListBox, Path=SelectedItem}" 
+                             Value="Settings">
+                    <Setter Property="ContentTemplate" Value="{StaticResource SettingsViewTemplate}"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="14*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox Grid.Column="0" x:Name="NavigationMenuListBox"
+                 Style="{StaticResource NavigationListBoxStyle}"
+                 ItemContainerStyle="{DynamicResource NavigationListBoxItemStyle}"
+                 ItemTemplate="{DynamicResource NavigationDataTemplate}"
+                 ItemsSource="{StaticResource NavigationMenuItems}"/>
+        <ContentControl Grid.Column="1" Style="{StaticResource NavigationContentStyle}"/>
     </Grid>
 </Window>

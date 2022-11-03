@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Pamyatajka",
+    "\\Pamyatajka\\Pamyatajka"
   ],
-  "SelectedNode": "\\C:\\Users\\Andrii\\Source\\Repos\\AndriyBarskyi\\PE_Project_2022",
+  "SelectedNode": "\\Pamyatajka\\Pamyatajka\\App.xaml",
   "PreviewInSolutionExplorer": false
 }

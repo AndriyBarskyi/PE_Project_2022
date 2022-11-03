@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj": {}
+    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj": {
+    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
+        "projectUniqueName": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
         "projectName": "PamyatajkaDAL",
-        "projectPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
+        "projectPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
         "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\obj\\",
+        "outputPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

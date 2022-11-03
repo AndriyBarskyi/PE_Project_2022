@@ -1,0 +1,416 @@
+Index: PamyatajkaBLL/obj/Debug/netcoreapp3.1/PamyatajkaBLL.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.RootNamespace = PamyatajkaBLL\r\nbuild_property.ProjectDir = C:\\Users\\lenovo\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PamyatajkaBLL/obj/Debug/netcoreapp3.1/PamyatajkaBLL.GeneratedMSBuildEditorConfig.editorconfig b/PamyatajkaBLL/obj/Debug/netcoreapp3.1/PamyatajkaBLL.GeneratedMSBuildEditorConfig.editorconfig
+--- a/PamyatajkaBLL/obj/Debug/netcoreapp3.1/PamyatajkaBLL.GeneratedMSBuildEditorConfig.editorconfig	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/PamyatajkaBLL/obj/Debug/netcoreapp3.1/PamyatajkaBLL.GeneratedMSBuildEditorConfig.editorconfig	(date 1666879247857)
+@@ -1,3 +1,3 @@
+ is_global = true
+ build_property.RootNamespace = PamyatajkaBLL
+-build_property.ProjectDir = C:\Users\lenovo\Source\Repos\PE_Project_2022\Pamyatajka\PamyatajkaBLL\
++build_property.ProjectDir = C:\Users\Andrii\RiderProjects\PE_Project_2022\Pamyatajka\PamyatajkaBLL\
+Index: Pamyatajka/obj/PamyatajkaUI.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\Pamyatajka\\\\PamyatajkaUI.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\Pamyatajka\\\\PamyatajkaUI.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\Pamyatajka\\\\PamyatajkaUI.csproj\",\r\n        \"projectName\": \"PamyatajkaUI\",\r\n        \"projectPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\Pamyatajka\\\\PamyatajkaUI.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\Andrii\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\Pamyatajka\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\Andrii\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp3.1\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp3.1\": {\r\n            \"targetAlias\": \"netcoreapp3.1\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp3.1\": {\r\n          \"targetAlias\": \"netcoreapp3.1\",\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"frameworkReferences\": {\r\n            \"Microsoft.NETCore.App\": {\r\n              \"privateAssets\": \"all\"\r\n            },\r\n            \"Microsoft.WindowsDesktop.App.WPF\": {\r\n              \"privateAssets\": \"none\"\r\n            }\r\n          },\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\6.0.402\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.dgspec.json b/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.dgspec.json
+--- a/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.dgspec.json	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.dgspec.json	(date 1666879253171)
+@@ -1,17 +1,17 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj": {}
++    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj": {
++    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
++        "projectUniqueName": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
+         "projectName": "PamyatajkaUI",
+-        "projectPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
++        "projectPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
+         "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\obj\\",
++        "outputPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+Index: Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\r\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\r\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\r\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\r\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">C:\\Users\\Andrii\\.nuget\\packages\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages</NuGetPackageFolders>\r\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\r\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.3.0</NuGetToolVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <SourceRoot Include=\"C:\\Users\\Andrii\\.nuget\\packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\\" />\r\n  </ItemGroup>\r\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.props b/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.props
+--- a/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.props	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.props	(date 1666879253081)
+@@ -7,7 +7,7 @@
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Andrii\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.2.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+     <SourceRoot Include="C:\Users\Andrii\.nuget\packages\" />
+Index: PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\r\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\r\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\r\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\r\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">C:\\Users\\Andrii\\.nuget\\packages\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages</NuGetPackageFolders>\r\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\r\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.3.0</NuGetToolVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <SourceRoot Include=\"C:\\Users\\Andrii\\.nuget\\packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\\" />\r\n  </ItemGroup>\r\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.g.props b/PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.g.props
+--- a/PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.g.props	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.g.props	(date 1666879253081)
+@@ -7,7 +7,7 @@
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Andrii\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.2.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+     <SourceRoot Include="C:\Users\Andrii\.nuget\packages\" />
+Index: PamyatajkaDAL/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"version\": 3,\r\n  \"targets\": {\r\n    \".NETCoreApp,Version=v3.1\": {}\r\n  },\r\n  \"libraries\": {},\r\n  \"projectFileDependencyGroups\": {\r\n    \".NETCoreApp,Version=v3.1\": []\r\n  },\r\n  \"packageFolders\": {\r\n    \"C:\\\\Users\\\\Andrii\\\\.nuget\\\\packages\\\\\": {},\r\n    \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\": {}\r\n  },\r\n  \"project\": {\r\n    \"version\": \"1.0.0\",\r\n    \"restore\": {\r\n      \"projectUniqueName\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaDAL\\\\PamyatajkaDAL.csproj\",\r\n      \"projectName\": \"PamyatajkaDAL\",\r\n      \"projectPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaDAL\\\\PamyatajkaDAL.csproj\",\r\n      \"packagesPath\": \"C:\\\\Users\\\\Andrii\\\\.nuget\\\\packages\\\\\",\r\n      \"outputPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaDAL\\\\obj\\\\\",\r\n      \"projectStyle\": \"PackageReference\",\r\n      \"fallbackFolders\": [\r\n        \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\r\n      ],\r\n      \"configFilePaths\": [\r\n        \"C:\\\\Users\\\\Andrii\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n      ],\r\n      \"originalTargetFrameworks\": [\r\n        \"netcoreapp3.1\"\r\n      ],\r\n      \"sources\": {\r\n        \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n        \"https://api.nuget.org/v3/index.json\": {}\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp3.1\": {\r\n          \"targetAlias\": \"netcoreapp3.1\",\r\n          \"projectReferences\": {}\r\n        }\r\n      },\r\n      \"warningProperties\": {\r\n        \"warnAsError\": [\r\n          \"NU1605\"\r\n        ]\r\n      }\r\n    },\r\n    \"frameworks\": {\r\n      \"netcoreapp3.1\": {\r\n        \"targetAlias\": \"netcoreapp3.1\",\r\n        \"imports\": [\r\n          \"net461\",\r\n          \"net462\",\r\n          \"net47\",\r\n          \"net471\",\r\n          \"net472\",\r\n          \"net48\",\r\n          \"net481\"\r\n        ],\r\n        \"assetTargetFallback\": true,\r\n        \"warn\": true,\r\n        \"frameworkReferences\": {\r\n          \"Microsoft.NETCore.App\": {\r\n            \"privateAssets\": \"all\"\r\n          },\r\n          \"Microsoft.WindowsDesktop.App.WPF\": {\r\n            \"privateAssets\": \"none\"\r\n          }\r\n        },\r\n        \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\6.0.402\\\\RuntimeIdentifierGraph.json\"\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PamyatajkaDAL/obj/project.assets.json b/PamyatajkaDAL/obj/project.assets.json
+--- a/PamyatajkaDAL/obj/project.assets.json	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/PamyatajkaDAL/obj/project.assets.json	(date 1666879253150)
+@@ -14,11 +14,11 @@
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
++      "projectUniqueName": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
+       "projectName": "PamyatajkaDAL",
+-      "projectPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
++      "projectPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
+       "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\obj\\",
++      "outputPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\obj\\",
+       "projectStyle": "PackageReference",
+       "fallbackFolders": [
+         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+Index: PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaDAL\\\\PamyatajkaDAL.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaDAL\\\\PamyatajkaDAL.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaDAL\\\\PamyatajkaDAL.csproj\",\r\n        \"projectName\": \"PamyatajkaDAL\",\r\n        \"projectPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaDAL\\\\PamyatajkaDAL.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\Andrii\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaDAL\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\Andrii\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp3.1\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp3.1\": {\r\n            \"targetAlias\": \"netcoreapp3.1\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp3.1\": {\r\n          \"targetAlias\": \"netcoreapp3.1\",\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"frameworkReferences\": {\r\n            \"Microsoft.NETCore.App\": {\r\n              \"privateAssets\": \"all\"\r\n            },\r\n            \"Microsoft.WindowsDesktop.App.WPF\": {\r\n              \"privateAssets\": \"none\"\r\n            }\r\n          },\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\6.0.402\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.dgspec.json b/PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.dgspec.json
+--- a/PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.dgspec.json	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/PamyatajkaDAL/obj/PamyatajkaDAL.csproj.nuget.dgspec.json	(date 1666879253171)
+@@ -1,17 +1,17 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj": {}
++    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj": {
++    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
++        "projectUniqueName": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
+         "projectName": "PamyatajkaDAL",
+-        "projectPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
++        "projectPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\PamyatajkaDAL.csproj",
+         "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\obj\\",
++        "outputPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+Index: .idea/.idea.Pamyatajka/.idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Pamyatajka/.idea/encodings.xml b/.idea/.idea.Pamyatajka/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1666879244896)
++++ b/.idea/.idea.Pamyatajka/.idea/encodings.xml	(date 1666879244896)
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise" />
++</project>
+\ No newline at end of file
+Index: Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.RootNamespace = PamyatajkaUI\r\nbuild_property.ProjectDir = C:\\Users\\lenovo\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.GeneratedMSBuildEditorConfig.editorconfig b/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.GeneratedMSBuildEditorConfig.editorconfig	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.GeneratedMSBuildEditorConfig.editorconfig	(date 1666879247673)
+@@ -1,3 +1,3 @@
+ is_global = true
+ build_property.RootNamespace = PamyatajkaUI
+-build_property.ProjectDir = C:\Users\lenovo\Source\Repos\PE_Project_2022\Pamyatajka\Pamyatajka\
++build_property.ProjectDir = C:\Users\Andrii\RiderProjects\PE_Project_2022\Pamyatajka\Pamyatajka\
+Index: PamyatajkaDAL/obj/Debug/netcoreapp3.1/PamyatajkaDAL.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.RootNamespace = PamyatajkaDAL\r\nbuild_property.ProjectDir = C:\\Users\\lenovo\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaDAL\\\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PamyatajkaDAL/obj/Debug/netcoreapp3.1/PamyatajkaDAL.GeneratedMSBuildEditorConfig.editorconfig b/PamyatajkaDAL/obj/Debug/netcoreapp3.1/PamyatajkaDAL.GeneratedMSBuildEditorConfig.editorconfig
+--- a/PamyatajkaDAL/obj/Debug/netcoreapp3.1/PamyatajkaDAL.GeneratedMSBuildEditorConfig.editorconfig	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/PamyatajkaDAL/obj/Debug/netcoreapp3.1/PamyatajkaDAL.GeneratedMSBuildEditorConfig.editorconfig	(date 1666879247776)
+@@ -1,3 +1,3 @@
+ is_global = true
+ build_property.RootNamespace = PamyatajkaDAL
+-build_property.ProjectDir = C:\Users\lenovo\Source\Repos\PE_Project_2022\Pamyatajka\PamyatajkaDAL\
++build_property.ProjectDir = C:\Users\Andrii\RiderProjects\PE_Project_2022\Pamyatajka\PamyatajkaDAL\
+Index: PamyatajkaBLL/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"version\": 3,\r\n  \"targets\": {\r\n    \".NETCoreApp,Version=v3.1\": {}\r\n  },\r\n  \"libraries\": {},\r\n  \"projectFileDependencyGroups\": {\r\n    \".NETCoreApp,Version=v3.1\": []\r\n  },\r\n  \"packageFolders\": {\r\n    \"C:\\\\Users\\\\Andrii\\\\.nuget\\\\packages\\\\\": {},\r\n    \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\": {}\r\n  },\r\n  \"project\": {\r\n    \"version\": \"1.0.0\",\r\n    \"restore\": {\r\n      \"projectUniqueName\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaBLL\\\\PamyatajkaBLL.csproj\",\r\n      \"projectName\": \"PamyatajkaBLL\",\r\n      \"projectPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaBLL\\\\PamyatajkaBLL.csproj\",\r\n      \"packagesPath\": \"C:\\\\Users\\\\Andrii\\\\.nuget\\\\packages\\\\\",\r\n      \"outputPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaBLL\\\\obj\\\\\",\r\n      \"projectStyle\": \"PackageReference\",\r\n      \"fallbackFolders\": [\r\n        \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\r\n      ],\r\n      \"configFilePaths\": [\r\n        \"C:\\\\Users\\\\Andrii\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n      ],\r\n      \"originalTargetFrameworks\": [\r\n        \"netcoreapp3.1\"\r\n      ],\r\n      \"sources\": {\r\n        \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n        \"https://api.nuget.org/v3/index.json\": {}\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp3.1\": {\r\n          \"targetAlias\": \"netcoreapp3.1\",\r\n          \"projectReferences\": {}\r\n        }\r\n      },\r\n      \"warningProperties\": {\r\n        \"warnAsError\": [\r\n          \"NU1605\"\r\n        ]\r\n      }\r\n    },\r\n    \"frameworks\": {\r\n      \"netcoreapp3.1\": {\r\n        \"targetAlias\": \"netcoreapp3.1\",\r\n        \"imports\": [\r\n          \"net461\",\r\n          \"net462\",\r\n          \"net47\",\r\n          \"net471\",\r\n          \"net472\",\r\n          \"net48\",\r\n          \"net481\"\r\n        ],\r\n        \"assetTargetFallback\": true,\r\n        \"warn\": true,\r\n        \"frameworkReferences\": {\r\n          \"Microsoft.NETCore.App\": {\r\n            \"privateAssets\": \"all\"\r\n          },\r\n          \"Microsoft.WindowsDesktop.App.WPF\": {\r\n            \"privateAssets\": \"none\"\r\n          }\r\n        },\r\n        \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\6.0.402\\\\RuntimeIdentifierGraph.json\"\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PamyatajkaBLL/obj/project.assets.json b/PamyatajkaBLL/obj/project.assets.json
+--- a/PamyatajkaBLL/obj/project.assets.json	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/PamyatajkaBLL/obj/project.assets.json	(date 1666879253150)
+@@ -14,11 +14,11 @@
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj",
++      "projectUniqueName": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj",
+       "projectName": "PamyatajkaBLL",
+-      "projectPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj",
++      "projectPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj",
+       "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\obj\\",
++      "outputPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\obj\\",
+       "projectStyle": "PackageReference",
+       "fallbackFolders": [
+         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+Index: PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\r\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\r\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\r\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\r\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">C:\\Users\\Andrii\\.nuget\\packages\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages</NuGetPackageFolders>\r\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\r\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.3.0</NuGetToolVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <SourceRoot Include=\"C:\\Users\\Andrii\\.nuget\\packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\\" />\r\n  </ItemGroup>\r\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.g.props b/PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.g.props
+--- a/PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.g.props	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.g.props	(date 1666879253081)
+@@ -7,7 +7,7 @@
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Andrii\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.2.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+     <SourceRoot Include="C:\Users\Andrii\.nuget\packages\" />
+Index: .idea/.idea.Pamyatajka/.idea/indexLayout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Pamyatajka/.idea/indexLayout.xml b/.idea/.idea.Pamyatajka/.idea/indexLayout.xml
+new file mode 100644
+--- /dev/null	(date 1666879251452)
++++ b/.idea/.idea.Pamyatajka/.idea/indexLayout.xml	(date 1666879251452)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="UserContentModel">
++    <attachedFolders />
++    <explicitIncludes />
++    <explicitExcludes />
++  </component>
++</project>
+\ No newline at end of file
+Index: PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaBLL\\\\PamyatajkaBLL.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaBLL\\\\PamyatajkaBLL.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaBLL\\\\PamyatajkaBLL.csproj\",\r\n        \"projectName\": \"PamyatajkaBLL\",\r\n        \"projectPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaBLL\\\\PamyatajkaBLL.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\Andrii\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\PamyatajkaBLL\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\Andrii\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp3.1\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp3.1\": {\r\n            \"targetAlias\": \"netcoreapp3.1\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp3.1\": {\r\n          \"targetAlias\": \"netcoreapp3.1\",\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"frameworkReferences\": {\r\n            \"Microsoft.NETCore.App\": {\r\n              \"privateAssets\": \"all\"\r\n            },\r\n            \"Microsoft.WindowsDesktop.App.WPF\": {\r\n              \"privateAssets\": \"none\"\r\n            }\r\n          },\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\6.0.402\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.dgspec.json b/PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.dgspec.json
+--- a/PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.dgspec.json	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/PamyatajkaBLL/obj/PamyatajkaBLL.csproj.nuget.dgspec.json	(date 1666879253172)
+@@ -1,17 +1,17 @@
+ {
+   "format": 1,
+   "restore": {
+-    "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj": {}
++    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj": {}
+   },
+   "projects": {
+-    "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj": {
++    "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj",
++        "projectUniqueName": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj",
+         "projectName": "PamyatajkaBLL",
+-        "projectPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj",
++        "projectPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\PamyatajkaBLL.csproj",
+         "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
+-        "outputPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\obj\\",
++        "outputPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\PamyatajkaBLL\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+Index: .idea/.idea.Pamyatajka/.idea/projectSettingsUpdater.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Pamyatajka/.idea/projectSettingsUpdater.xml b/.idea/.idea.Pamyatajka/.idea/projectSettingsUpdater.xml
+new file mode 100644
+--- /dev/null	(date 1666879251474)
++++ b/.idea/.idea.Pamyatajka/.idea/projectSettingsUpdater.xml	(date 1666879251474)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RiderProjectSettingsUpdater">
++    <option name="vcsConfiguration" value="2" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.idea.Pamyatajka/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Pamyatajka/.idea/vcs.xml b/.idea/.idea.Pamyatajka/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1666879251503)
++++ b/.idea/.idea.Pamyatajka/.idea/vcs.xml	(date 1666879251503)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#pragma checksum \"..\\..\\..\\MainWindow.xaml\" \"{ff1816ec-aa5e-4d10-87f7-6f4963833460}\" \"58C4AD8967CEEF959968D17F74E77521EEF49613\"\r\n//------------------------------------------------------------------------------\r\n// <auto-generated>\r\n//     This code was generated by a tool.\r\n//     Runtime Version:4.0.30319.42000\r\n//\r\n//     Changes to this file may cause incorrect behavior and will be lost if\r\n//     the code is regenerated.\r\n// </auto-generated>\r\n//------------------------------------------------------------------------------\r\n\r\nusing Pamyatajka;\r\nusing System;\r\nusing System.Diagnostics;\r\nusing System.Windows;\r\nusing System.Windows.Automation;\r\nusing System.Windows.Controls;\r\nusing System.Windows.Controls.Primitives;\r\nusing System.Windows.Controls.Ribbon;\r\nusing System.Windows.Data;\r\nusing System.Windows.Documents;\r\nusing System.Windows.Ink;\r\nusing System.Windows.Input;\r\nusing System.Windows.Markup;\r\nusing System.Windows.Media;\r\nusing System.Windows.Media.Animation;\r\nusing System.Windows.Media.Effects;\r\nusing System.Windows.Media.Imaging;\r\nusing System.Windows.Media.Media3D;\r\nusing System.Windows.Media.TextFormatting;\r\nusing System.Windows.Navigation;\r\nusing System.Windows.Shapes;\r\nusing System.Windows.Shell;\r\n\r\n\r\nnamespace Pamyatajka {\r\n    \r\n    \r\n    /// <summary>\r\n    /// MainWindow\r\n    /// </summary>\r\n    public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {\r\n        \r\n        private bool _contentLoaded;\r\n        \r\n        /// <summary>\r\n        /// InitializeComponent\r\n        /// </summary>\r\n        [System.Diagnostics.DebuggerNonUserCodeAttribute()]\r\n        [System.CodeDom.Compiler.GeneratedCodeAttribute(\"PresentationBuildTasks\", \"5.0.15.0\")]\r\n        public void InitializeComponent() {\r\n            if (_contentLoaded) {\r\n                return;\r\n            }\r\n            _contentLoaded = true;\r\n            System.Uri resourceLocater = new System.Uri(\"/PamyatajkaUI;component/mainwindow.xaml\", System.UriKind.Relative);\r\n            \r\n            #line 1 \"..\\..\\..\\MainWindow.xaml\"\r\n            System.Windows.Application.LoadComponent(this, resourceLocater);\r\n            \r\n            #line default\r\n            #line hidden\r\n        }\r\n        \r\n        [System.Diagnostics.DebuggerNonUserCodeAttribute()]\r\n        [System.CodeDom.Compiler.GeneratedCodeAttribute(\"PresentationBuildTasks\", \"5.0.15.0\")]\r\n        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]\r\n        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(\"Microsoft.Design\", \"CA1033:InterfaceMethodsShouldBeCallableByChildTypes\")]\r\n        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(\"Microsoft.Maintainability\", \"CA1502:AvoidExcessiveComplexity\")]\r\n        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute(\"Microsoft.Performance\", \"CA1800:DoNotCastUnnecessarily\")]\r\n        void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {\r\n            this._contentLoaded = true;\r\n        }\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs b/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs
+--- a/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs	(date 1666879253572)
+@@ -2,7 +2,6 @@
+ //------------------------------------------------------------------------------
+ // <auto-generated>
+ //     This code was generated by a tool.
+-//     Runtime Version:4.0.30319.42000
+ //
+ //     Changes to this file may cause incorrect behavior and will be lost if
+ //     the code is regenerated.
+@@ -47,7 +46,7 @@
+         /// InitializeComponent
+         /// </summary>
+         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.15.0")]
++        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.10.0")]
+         public void InitializeComponent() {
+             if (_contentLoaded) {
+                 return;
+@@ -63,7 +62,7 @@
+         }
+         
+         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.15.0")]
++        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.10.0")]
+         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
+         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
+         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
+Index: Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#pragma checksum \"..\\..\\..\\App.xaml\" \"{ff1816ec-aa5e-4d10-87f7-6f4963833460}\" \"6B67CE476542D44417189FF0886B2D4A9BDB94DB\"\r\n//------------------------------------------------------------------------------\r\n// <auto-generated>\r\n//     This code was generated by a tool.\r\n//     Runtime Version:4.0.30319.42000\r\n//\r\n//     Changes to this file may cause incorrect behavior and will be lost if\r\n//     the code is regenerated.\r\n// </auto-generated>\r\n//------------------------------------------------------------------------------\r\n\r\nusing Pamyatajka;\r\nusing System;\r\nusing System.Diagnostics;\r\nusing System.Windows;\r\nusing System.Windows.Automation;\r\nusing System.Windows.Controls;\r\nusing System.Windows.Controls.Primitives;\r\nusing System.Windows.Controls.Ribbon;\r\nusing System.Windows.Data;\r\nusing System.Windows.Documents;\r\nusing System.Windows.Ink;\r\nusing System.Windows.Input;\r\nusing System.Windows.Markup;\r\nusing System.Windows.Media;\r\nusing System.Windows.Media.Animation;\r\nusing System.Windows.Media.Effects;\r\nusing System.Windows.Media.Imaging;\r\nusing System.Windows.Media.Media3D;\r\nusing System.Windows.Media.TextFormatting;\r\nusing System.Windows.Navigation;\r\nusing System.Windows.Shapes;\r\nusing System.Windows.Shell;\r\n\r\n\r\nnamespace Pamyatajka {\r\n    \r\n    \r\n    /// <summary>\r\n    /// App\r\n    /// </summary>\r\n    public partial class App : System.Windows.Application {\r\n        \r\n        /// <summary>\r\n        /// InitializeComponent\r\n        /// </summary>\r\n        [System.Diagnostics.DebuggerNonUserCodeAttribute()]\r\n        [System.CodeDom.Compiler.GeneratedCodeAttribute(\"PresentationBuildTasks\", \"5.0.15.0\")]\r\n        public void InitializeComponent() {\r\n            \r\n            #line 5 \"..\\..\\..\\App.xaml\"\r\n            this.StartupUri = new System.Uri(\"MainWindow.xaml\", System.UriKind.Relative);\r\n            \r\n            #line default\r\n            #line hidden\r\n        }\r\n        \r\n        /// <summary>\r\n        /// Application Entry Point.\r\n        /// </summary>\r\n        [System.STAThreadAttribute()]\r\n        [System.Diagnostics.DebuggerNonUserCodeAttribute()]\r\n        [System.CodeDom.Compiler.GeneratedCodeAttribute(\"PresentationBuildTasks\", \"5.0.15.0\")]\r\n        public static void Main() {\r\n            Pamyatajka.App app = new Pamyatajka.App();\r\n            app.InitializeComponent();\r\n            app.Run();\r\n        }\r\n    }\r\n}\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs b/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs
+--- a/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs	(date 1666879247612)
+@@ -2,7 +2,6 @@
+ //------------------------------------------------------------------------------
+ // <auto-generated>
+ //     This code was generated by a tool.
+-//     Runtime Version:4.0.30319.42000
+ //
+ //     Changes to this file may cause incorrect behavior and will be lost if
+ //     the code is regenerated.
+@@ -45,7 +44,7 @@
+         /// InitializeComponent
+         /// </summary>
+         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.15.0")]
++        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.10.0")]
+         public void InitializeComponent() {
+             
+             #line 5 "..\..\..\App.xaml"
+@@ -60,7 +59,7 @@
+         /// </summary>
+         [System.STAThreadAttribute()]
+         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.15.0")]
++        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.10.0")]
+         public static void Main() {
+             Pamyatajka.App app = new Pamyatajka.App();
+             app.InitializeComponent();
+Index: Pamyatajka/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"version\": 3,\r\n  \"targets\": {\r\n    \".NETCoreApp,Version=v3.1\": {}\r\n  },\r\n  \"libraries\": {},\r\n  \"projectFileDependencyGroups\": {\r\n    \".NETCoreApp,Version=v3.1\": []\r\n  },\r\n  \"packageFolders\": {\r\n    \"C:\\\\Users\\\\Andrii\\\\.nuget\\\\packages\\\\\": {},\r\n    \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\": {}\r\n  },\r\n  \"project\": {\r\n    \"version\": \"1.0.0\",\r\n    \"restore\": {\r\n      \"projectUniqueName\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\Pamyatajka\\\\PamyatajkaUI.csproj\",\r\n      \"projectName\": \"PamyatajkaUI\",\r\n      \"projectPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\Pamyatajka\\\\PamyatajkaUI.csproj\",\r\n      \"packagesPath\": \"C:\\\\Users\\\\Andrii\\\\.nuget\\\\packages\\\\\",\r\n      \"outputPath\": \"C:\\\\Users\\\\Andrii\\\\Source\\\\Repos\\\\PE_Project_2022\\\\Pamyatajka\\\\Pamyatajka\\\\obj\\\\\",\r\n      \"projectStyle\": \"PackageReference\",\r\n      \"fallbackFolders\": [\r\n        \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\"\r\n      ],\r\n      \"configFilePaths\": [\r\n        \"C:\\\\Users\\\\Andrii\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n        \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\"\r\n      ],\r\n      \"originalTargetFrameworks\": [\r\n        \"netcoreapp3.1\"\r\n      ],\r\n      \"sources\": {\r\n        \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n        \"https://api.nuget.org/v3/index.json\": {}\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp3.1\": {\r\n          \"targetAlias\": \"netcoreapp3.1\",\r\n          \"projectReferences\": {}\r\n        }\r\n      },\r\n      \"warningProperties\": {\r\n        \"warnAsError\": [\r\n          \"NU1605\"\r\n        ]\r\n      }\r\n    },\r\n    \"frameworks\": {\r\n      \"netcoreapp3.1\": {\r\n        \"targetAlias\": \"netcoreapp3.1\",\r\n        \"imports\": [\r\n          \"net461\",\r\n          \"net462\",\r\n          \"net47\",\r\n          \"net471\",\r\n          \"net472\",\r\n          \"net48\",\r\n          \"net481\"\r\n        ],\r\n        \"assetTargetFallback\": true,\r\n        \"warn\": true,\r\n        \"frameworkReferences\": {\r\n          \"Microsoft.NETCore.App\": {\r\n            \"privateAssets\": \"all\"\r\n          },\r\n          \"Microsoft.WindowsDesktop.App.WPF\": {\r\n            \"privateAssets\": \"none\"\r\n          }\r\n        },\r\n        \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\6.0.402\\\\RuntimeIdentifierGraph.json\"\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pamyatajka/obj/project.assets.json b/Pamyatajka/obj/project.assets.json
+--- a/Pamyatajka/obj/project.assets.json	(revision e8444020114f289016b6ec522068cf635e283504)
++++ b/Pamyatajka/obj/project.assets.json	(date 1666879253150)
+@@ -14,11 +14,11 @@
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
++      "projectUniqueName": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
+       "projectName": "PamyatajkaUI",
+-      "projectPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
++      "projectPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
+       "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
+-      "outputPath": "C:\\Users\\Andrii\\Source\\Repos\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\obj\\",
++      "outputPath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\obj\\",
+       "projectStyle": "PackageReference",
+       "fallbackFolders": [
+         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
