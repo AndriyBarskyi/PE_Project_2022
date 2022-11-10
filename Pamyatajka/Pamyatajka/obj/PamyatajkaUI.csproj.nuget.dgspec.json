@@ -44,9 +44,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "InteractiveDataDisplay.WPF": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "MahApps.Metro.IconPacks": {
               "target": "Package",
               "version": "[4.11.0, )"
+            },
+            "ScottPlot.WPF": {
+              "target": "Package",
+              "version": "[4.1.58, )"
             }
           },
           "imports": [

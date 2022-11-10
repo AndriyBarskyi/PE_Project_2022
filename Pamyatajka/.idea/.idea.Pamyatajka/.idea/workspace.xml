@@ -7,8 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de57a84b-c047-4668-a4f5-9468eb8386cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Pamyatajka/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pamyatajka/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2022_17_02_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pamyatajka/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2022_17_02__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pamyatajka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pamyatajka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/PamyatajkaUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/PamyatajkaUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/Views/StatisticsView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/Views/StatisticsView.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/Views/StatisticsView.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/Views/StatisticsView.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +31,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$/.." value="create-categories-window" />
       </map>
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cdc9db927ede4b508370923e49fde953363c317f55715544bc01c541191ebdf/WpfPlot.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Andrii/RiderProjects/PE_Project_2022/Pamyatajka/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Andrii/RiderProjects/PE_Project_2022/Pamyatajka/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -43,6 +59,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -111,7 +128,11 @@
       <option name="presentableId" value="Default" />
       <updated>1666879245125</updated>
       <workItem from="1666879253586" duration="12937000" />
-      <workItem from="1666938717923" duration="2167000" />
+      <workItem from="1666938717923" duration="2970000" />
+      <workItem from="1666946796937" duration="1451000" />
+      <workItem from="1667472375929" duration="518000" />
+      <workItem from="1667472934745" duration="11690000" />
+      <workItem from="1667547579026" duration="7279000" />
     </task>
     <task id="LOCAL-00001" summary="implement navigation menu and change categories page">
       <created>1666905463517</created>
@@ -120,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666905463517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix categories icon">
+      <created>1666941789606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666941789606</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="implement navigation menu and change categories page" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement navigation menu and change categories page" />
+    <MESSAGE value="fix categories icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix categories icon" />
   </component>
 </project>

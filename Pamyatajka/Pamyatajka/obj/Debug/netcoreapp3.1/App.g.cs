@@ -12,6 +12,7 @@ using MahApps.Metro.IconPacks;
 using MahApps.Metro.IconPacks.Converter;
 using Pamyatajka;
 using PamyatajkaUI.Views;
+using ScottPlot;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -49,7 +50,7 @@ namespace Pamyatajka {
         /// InitializeComponent
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.15.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.10.0")]
         public void InitializeComponent() {
             if (_contentLoaded) {
                 return;
@@ -75,7 +76,7 @@ namespace Pamyatajka {
         /// </summary>
         [System.STAThreadAttribute()]
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "5.0.15.0")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "6.0.10.0")]
         public static void Main() {
             Pamyatajka.App app = new Pamyatajka.App();
             app.InitializeComponent();

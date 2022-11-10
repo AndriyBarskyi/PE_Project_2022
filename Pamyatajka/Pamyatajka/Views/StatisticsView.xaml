@@ -6,20 +6,11 @@
              xmlns:local="clr-namespace:PamyatajkaUI.Views"
              xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
              mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="*" d:DesignWidth="*">
     <Grid>
-        <StackPanel Orientation="Vertical"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center">
-            <iconPacks:PackIconMaterialDesign HorizontalAlignment="Center"
-                                              Foreground="{StaticResource PrimaryDarkBrush}"
-                                              Width="100" Height="100"
-                                              Kind="InsertChart"/>
-            <TextBlock FontSize="40" FontWeight="Bold" 
-                       VerticalAlignment="Center" HorizontalAlignment="Center" 
-                       Foreground="{StaticResource PrimaryDarkBrush}"
-                       Text="Statistics"/>
-            <!--Text="{Binding Title}"/>-->
+        <StackPanel Orientation="Horizontal" Margin="40 0 0 0">
+            <Label x:Name="StatisticsLabel" Content="Статистика" FontSize="42" HorizontalAlignment="Left" FontFamily="Microsoft YaHei" FontWeight="Bold" Margin="20 40 0 0" />
+            <WpfPlot Name="WordsLearningBars" Height="500" Width="1000" />
         </StackPanel>
     </Grid>
 </UserControl>
