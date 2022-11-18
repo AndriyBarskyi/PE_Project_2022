@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oclgTVk0daWkxYvGiFNPPovJ5PtP0AeOB+QqgoKH4mH6m1dwO2w/3/jO2+LWEFtvgCiIPbCMznrljQ2rKmiXvw==",
+  "dgSpecHash": "ZMSL1YYP+A0d0oqVRZTkjVKEjRhLgZRVocVl30+DimBDf+GFGnmKs2jgp7O/MRxLeZCEUaIduqAzkW7I4hKx8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Andrii\\.nuget\\packages\\mahapps.metro.iconpacks\\4.11.0\\mahapps.metro.iconpacks.4.11.0.nupkg.sha512"
+    "C:\\Users\\Andrii\\.nuget\\packages\\mahapps.metro.iconpacks\\4.11.0\\mahapps.metro.iconpacks.4.11.0.nupkg.sha512",
+    "C:\\Users\\Andrii\\.nuget\\packages\\materialdesigncolors\\2.1.0-ci358\\materialdesigncolors.2.1.0-ci358.nupkg.sha512",
+    "C:\\Users\\Andrii\\.nuget\\packages\\materialdesignthemes\\4.7.0-ci358\\materialdesignthemes.4.7.0-ci358.nupkg.sha512"
   ],
   "logs": []
 }

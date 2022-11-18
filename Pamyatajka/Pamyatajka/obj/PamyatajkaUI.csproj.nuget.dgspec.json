@@ -47,6 +47,10 @@
             "MahApps.Metro.IconPacks": {
               "target": "Package",
               "version": "[4.11.0, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.7.0-ci358, )"
             }
           },
           "imports": [

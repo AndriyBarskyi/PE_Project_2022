@@ -7,8 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de57a84b-c047-4668-a4f5-9468eb8386cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Pamyatajka/DailyTerms.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pamyatajka/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2022_17_02_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pamyatajka/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_10_2022_17_02__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pamyatajka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pamyatajka/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pamyatajka/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/PamyatajkaUI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/PamyatajkaUI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/Views/SettingsView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/Views/SettingsView.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/Views/SettingsView.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/Views/SettingsView.xaml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/PamyatajkaUI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/PamyatajkaUI.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pamyatajka/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pamyatajka/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +40,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/App.g.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/144b4befe1df13643738d65366d44673f7e83a44953b83ea7ec44a6fb689e2/XamlReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cdc9db927ede4b508370923e49fde953363c317f55715544bc01c541191ebdf/WpfPlot.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Pamyatajka/obj/Debug/netcoreapp3.1/MainWindow.g.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -43,6 +61,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -112,6 +131,9 @@
       <updated>1666879245125</updated>
       <workItem from="1666879253586" duration="12937000" />
       <workItem from="1666938717923" duration="2167000" />
+      <workItem from="1668094570762" duration="5771000" />
+      <workItem from="1668153475463" duration="6380000" />
+      <workItem from="1668756217445" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="implement navigation menu and change categories page">
       <created>1666905463517</created>

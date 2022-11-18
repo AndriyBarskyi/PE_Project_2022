@@ -3,23 +3,54 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
              xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:local="clr-namespace:PamyatajkaUI.Views"
+             xmlns:collections="clr-namespace:System.Collections;assembly=System.Runtime"
+             xmlns:pamyatajkaUi="clr-namespace:PamyatajkaUI"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid>
-        <StackPanel Orientation="Vertical"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center">
-            <iconPacks:PackIconMaterialDesign HorizontalAlignment="Center"
-                                              Foreground="{StaticResource PrimaryDarkBrush}"
-                                              Width="100" Height="100"
-                                              Kind="Settings"/>
-            <TextBlock FontSize="40" FontWeight="Bold" 
-                       VerticalAlignment="Center" HorizontalAlignment="Center" 
-                       Foreground="{StaticResource PrimaryDarkBrush}"
-                       Text="Settings"/>
-            <!--Text="{Binding Title}"/>-->
-        </StackPanel>
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Margin="40 0 0 0"
+                      FontFamily="Microsoft YaHei">
+            <StackPanel>
+                <Label x:Name="CategoryLabel" Content="Налаштування" FontSize="42" HorizontalAlignment="Left"
+                       FontWeight="Bold" Margin="20 40 0 0" />
+                <Grid Margin="10" HorizontalAlignment="Left">
+                    <Grid.Resources>
+                        <pamyatajkaUi:DailyTerms x:Key="DailyTerms"/>
+                    </Grid.Resources>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/> 
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Label FontSize="20" Margin="15 0 0 15">Кількість слів для вивчення на день: </Label>
+                    <ComboBox Grid.Row="0" Grid.Column="1" Name="DailyTermsBox"
+                              ItemsSource="{StaticResource DailyTerms}"
+                              IsEditable="False" IsReadOnly="True"
+                              PreviewTextInput="NumberValidationTextBox"
+                              Text="5" Width="100" FontSize="20"
+                              BorderBrush="#FF1F90FF"
+                    />
+                    <Label Grid.Row="1" Grid.Column="0" FontSize="20" Margin="15 0 0 15">Час для нагадування: </Label>
+                    <materialDesign:TimePicker Grid.Column="1" Grid.Row="1" 
+                                               Is24Hours="True" SelectedTimeFormat="Long" 
+                                               Width="100" FontSize="20" BorderBrush="#FF1F90FF"
+                                               Focusable="False"
+                                               SelectedTime="14:00"/>
+                    <Label Grid.Row="2" Grid.Column="0" FontSize="20" Margin="15 0 0 15">Включити нагадування: </Label>
+                    <ToggleButton Grid.Row="2" Grid.Column="1"
+                                  Name="ToggleNotificationBtn" Background="#FF1F90FF"  
+                                  Margin="15 0 0 15"/>
+                </Grid>
+                
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </UserControl>
