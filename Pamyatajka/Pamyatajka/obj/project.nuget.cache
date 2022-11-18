@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "ZMSL1YYP+A0d0oqVRZTkjVKEjRhLgZRVocVl30+DimBDf+GFGnmKs2jgp7O/MRxLeZCEUaIduqAzkW7I4hKx8A==",
+  "dgSpecHash": "0a4250AeR1MgtzCLLdqS7Uks/YaDhIwwu8143mSPrEaTGl8iTPQct/fIUpsXADwo5vkwHfhxcPZGQbfC8h4ctQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrii\\RiderProjects\\PE_Project_2022\\Pamyatajka\\Pamyatajka\\PamyatajkaUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrii\\.nuget\\packages\\mahapps.metro.iconpacks\\4.11.0\\mahapps.metro.iconpacks.4.11.0.nupkg.sha512",
     "C:\\Users\\Andrii\\.nuget\\packages\\materialdesigncolors\\2.1.0-ci358\\materialdesigncolors.2.1.0-ci358.nupkg.sha512",
-    "C:\\Users\\Andrii\\.nuget\\packages\\materialdesignthemes\\4.7.0-ci358\\materialdesignthemes.4.7.0-ci358.nupkg.sha512"
+    "C:\\Users\\Andrii\\.nuget\\packages\\materialdesignthemes\\4.7.0-ci358\\materialdesignthemes.4.7.0-ci358.nupkg.sha512",
+    "C:\\Users\\Andrii\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\Andrii\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
+    "C:\\Users\\Andrii\\.nuget\\packages\\scottplot\\4.1.59\\scottplot.4.1.59.nupkg.sha512",
+    "C:\\Users\\Andrii\\.nuget\\packages\\scottplot.wpf\\4.1.59\\scottplot.wpf.4.1.59.nupkg.sha512",
+    "C:\\Users\\Andrii\\.nuget\\packages\\system.drawing.common\\4.6.1\\system.drawing.common.4.6.1.nupkg.sha512",
+    "C:\\Users\\Andrii\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

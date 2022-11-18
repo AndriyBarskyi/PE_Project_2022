@@ -11,6 +11,7 @@
 using PamyatajkaUI;
 using PamyatajkaUI.Controls;
 using PamyatajkaUI.Views;
+using ScottPlot;
 using System;
 using System.Diagnostics;
 using System.Windows;

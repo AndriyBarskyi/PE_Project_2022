@@ -11,6 +11,7 @@
 using PamyatajkaUI;
 using PamyatajkaUI.Controls;
 using PamyatajkaUI.Views;
+using ScottPlot;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -62,7 +63,7 @@ namespace Pamyatajka {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PamyatajkaUI;component/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PamyatajkaUI;V1.0.0.0;component/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
