@@ -15,6 +15,7 @@ using MaterialDesignThemes.Wpf.Converters;
 using MaterialDesignThemes.Wpf.Transitions;
 using Pamyatajka;
 using PamyatajkaUI.Views;
+using ScottPlot;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -64,7 +65,7 @@ namespace Pamyatajka {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/PamyatajkaUI;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PamyatajkaUI;V1.0.0.0;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

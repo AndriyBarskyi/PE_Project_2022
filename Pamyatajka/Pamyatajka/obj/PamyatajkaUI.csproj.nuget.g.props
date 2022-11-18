@@ -14,6 +14,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgScottPlot_WPF Condition=" '$(PkgScottPlot_WPF)' == '' ">C:\Users\Andrii\.nuget\packages\scottplot.wpf\4.1.59</PkgScottPlot_WPF>
     <PkgMaterialDesignThemes Condition=" '$(PkgMaterialDesignThemes)' == '' ">C:\Users\Andrii\.nuget\packages\materialdesignthemes\4.7.0-ci358</PkgMaterialDesignThemes>
   </PropertyGroup>
 </Project>
